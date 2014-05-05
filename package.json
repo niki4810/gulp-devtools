@@ -1,7 +1,7 @@
 {
   "name": "gulp-devtools",
   "description": "Gulp integration with Chrome Dev Tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/niki4810/gulp-devtools",
   "author": {
     "name": "Nikhilesh Katakam",
