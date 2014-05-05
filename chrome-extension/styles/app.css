@@ -1,0 +1,72 @@
+/*bootstrap overrides*/
+input.app-txt-filter,
+button.app-btn-kill-task,
+button.app-btn-bck-task {
+  border-radius: 0;
+}
+
+div.app-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 10px 5px 20px 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #FAFAFA;
+  border-right: 1px solid #eee;
+}
+
+.app-main {
+  padding: 10px 40px 40px 20px;
+}
+
+.app-console {
+  color: #777;
+  font-size: 11px;
+}
+
+.app-action-buttons {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+h5.app-page-header {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.app-gulp-devtools-logo {
+  width: 250px;
+  height: auto;
+}
+
+.app-help-section {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.app-help-container {
+  padding: 5px;
+}
+
+.app-gulp-task-list,
+.app-bck-gulp-task-list{
+  padding-top: 5px;
+}
+
+.nav > li > a.app-gulp-task,
+.nav > li > a.app-gulp-bck-task{
+  padding: 2px;
+  border-radius: 0;
+}
+
+span.app-bck-task-close{
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #d9534f;
+}

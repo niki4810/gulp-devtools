@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Gulp-Devtools</title>
+  <link href="styles/app.css" rel="stylesheet" type="text/css"/>
+  <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <script src="libs/socket.io.js"></script>
+  <script src="libs/jquery.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.js"></script>
+  <script src="libs/underscore.js"></script>
+  <script src="libs/backbone.js"></script>
+  <script src="libs/geppetto.js"></script>
+  <script src="libs/handlebars.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+
+<div class="app-shell js-app-shell">
+</div>
+
+<!--templates-->
+<script id="js-app-main-container-tmpl" type="text/template">
+  <div class="js-app-main-container app-main-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 col-md-3 app-sidebar js-app-sidebar">
+
+        </div>
+        <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 app-main js-app-main">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+<script id="js-app-console-tmpl" type="text/template">
+  <div>
+    <h5 class="app-page-header">output:</h5>
+    <hr/>
+    <div class="app-console js-app-console">
+    </div>
+  </div>
+</script>
+<script id="js-app-bck-gulp-task-li-tmpl" type="text/template">
+  <a href="#" class="app-gulp-bck-task js-app-gulp-bck-task">
+    <span class="badge app-bck-task-close js-app-bck-task-close">x</span>{{taskName}}
+  </a>
+</script>
+<script id="js-app-bck-gulp-tasks-tmpl" type="text/template">
+  <div class="app-current-bck-gulp-tasks-list">
+    <h5>Background tasks</h5>
+    <ul class="nav nav-pills nav-stacked app-bck-gulp-task-list js-app-bck-gulp-task-list">
+    </ul>
+  </div>
+</script>
+<script id="js-app-current-gulp-task-li-tmpl" type="text/template">
+  <a href='#' class='js-app-gulp-task app-gulp-task'>{{taskName}}</a>
+</script>
+<script id="js-app-current-gulp-tasks-tmpl" type="text/template">
+  <div class="current-gulp-tasks-list">
+    <h5>Gulp tasks</h5>
+    <input type="text" class="app-txt-filter js-app-txt-filter form-control" placeholder="Filter tasks: e.g. watch">
+    <ul class="nav nav-pills nav-stacked app-gulp-task-list js-app-gulp-task-list">
+    </ul>
+  </div>
+</script>
+<script id="js-app-action-btn-tmpl" type="text/template">
+  <div class="js-app-action-buttons app-action-buttons">
+    <button class="btn btn-danger js-app-btn-kill-task app-btn-kill-task">Stop</button>
+    <button class="btn btn-info js-app-btn-bck-task app-btn-bck-task">Run in Background</button>
+  </div>
+</script>
+<script id="js-app-help-container-tmpl" type="text/template">
+  <div class="js-app-help-container app-help-container">
+    <div class="clearfix app-help-section">
+      <div class="pull-left">
+        <img src="images/gulp-devtools-img.png" class="app-gulp-devtools-logo"/>
+      </div>
+      <div class="pull-left">
+        <h3>Is gulp-devtools running?</h3>
+
+        <p>- If not already installed, run <code>npm install -g gulp-devtools</code></p>
+
+        <p>- Export gulp from your gulpfile.js by adding <code>module.exports = gulp;</code></p>
+
+        <p>- Run <code>gulp-devtools</code> in a directory with a gulpfile!</p>
+
+        <p>- Re-open Chrome Dev tools, find the Gulp tab. Your gulp tasks should now be accessible from Chrome.</p>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+</body>
+</html>

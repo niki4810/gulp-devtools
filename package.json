@@ -1,0 +1,35 @@
+{
+  "name": "gulp-devtools",
+  "description": "Gulp integration with Chrome Dev Tools",
+  "version": "0.0.1",
+  "homepage": "https://github.com/niki4810/gulp-devtools",
+  "author": {
+    "name": "Nikhilesh Katakam",
+    "url": "http://niki4810.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niki4810/gulp-devtools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niki4810/gulp-devtools/issues"
+  },
+  "bin": {
+    "gulp-devtools": "bin/gulp-devtools.js"
+  },
+  "keywords": [
+    "gulp devtools",
+    "devtools",
+    "chrome devtools"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "socket.io": "~0.9.16",
+    "mime": "~1.2.11"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-jshint": "~1.5.5",
+    "jshint-stylish": "~0.2.0"
+  }
+}
