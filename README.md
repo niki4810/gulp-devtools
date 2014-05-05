@@ -7,7 +7,7 @@ Gulp task runner extension for chrome devtools
 
 # Quick setup :
 
-- Download the Gulp devtools extension for Chrome Developer Tools from the Chrome Web Store.
+- Download the [Gulp devtools extension](https://chrome.google.com/webstore/detail/gulp-devtools/ojpmgjhofceebfifeajnjojpokebkkji) for Chrome Developer Tools from the Chrome Web Store.
 - If not already installed, run `npm install -g gulp-devtools`
 - Export gulp from your gulpfile.js by adding `module.exports = gulp;`
 - Run `gulp-devtools` in a directory with a gulpfile!
