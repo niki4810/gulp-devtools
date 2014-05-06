@@ -3,7 +3,7 @@ gulp-devtools
 
 Gulp task runner extension for chrome devtools
 
-![alt tag](https://raw.githubusercontent.com/niki4810/gulp-devtools/gh-pages/gulp-devtools-screenshot.png)
+![alt tag](https://raw.githubusercontent.com/niki4810/gulp-devtools/gh-pages/gulp-devtools-gif.gif)
 
 # Quick setup :
 
