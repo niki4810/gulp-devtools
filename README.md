@@ -14,6 +14,18 @@ Gulp task runner extension for chrome devtools
 - Open Chrome Dev tools, find the Gulp tab. Your gulp tasks should now be accessible from Chrome.
 
 
+# Built With:
+
+## Chrome-extension
+- [Backbone](http://backbonejs.org/)
+- [Backbone.Geppetto](https://github.com/ModelN/backbone.geppetto)
+- [Twitter Bootstrap](http://getbootstrap.com/)
+
+## Plugin
+- [Node.js](http://nodejs.org/)
+- [socket.io](http://socket.io/)
+
+
 # Credits :
 
 - This project is heavily inspired from [grunt-devtools](https://github.com/vladikoff/grunt-devtools) plugin.
