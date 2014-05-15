@@ -6,9 +6,10 @@
   "minimum_chrome_version": "10.0",
   "devtools_page": "devtools.html",
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "short_name": "gulp-devtools",
   "icons": {
-    "16": "images/gulp16.png",
-    "48": "images/gulp48.png",
-    "128": "images/gulp128.png"
+    "16": "images/gulp-devtools-16x16.png",
+    "48": "images/gulp-devtools-48x48.png",
+    "128": "images/gulp-devtools-128x128.png"
   }
 }
